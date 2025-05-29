@@ -1,0 +1,15 @@
+1. Per MySQL Workbench sukurti duomenų bazę pavadinimu "ems"
+
+2. Per MySQL Workbench panaudoti komandą "use ems;"
+
+3. Per IntelliJ paleisti Backend
+
+4. Per MySQL Workbench parašyti ir suaktyvuoti šią komandą "INSERT INTO roles (name) VALUES("ROLE_ADMIN"), ("ROLE_USER");" (Čia yra sukurta admino paskyra)
+
+5. Per VSC įsijungti frontend ir į terminalą parašyti šias komandas: "cd ems-frontend", "npm install", "npm run dev"
+
+6. Nuėjus į frontend svetainę adresu http://localhost:3000/ sukurti paskyrą
+
+7. Sukūrus paskyrą, per MySQL Workbench parašyti ir suaktyvuoti šią komandą "INSERT INTO user_roles (user_id, role_id) VALUES(1,1);"
+
+8. 
